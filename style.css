@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.secao{
+ margin: 0 0 50px 0;
+}
+
+.pad{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.lista{
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+}
+
+.lista a{
+    text-decoration: none;
+    
+}
+
+.lista a li{
+    padding: 0 25px;
+    color: #012C78;
+}
+
+.lista a li:hover{
+    color: #509E3F;
+}
+
+.back{
+    height: 510px;
+    background-image: url("Images/Fundo.jpg");
+    background-size: cover ;
+    padding: 65px;
+} 
+
+.titulos{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 5.2em;
+    text-shadow: 5px 5px 10px black;
+}
+
+.verde{
+    color: #509E3F;
+}
+
+.area{
+    width: 290px;
+    text-align: center;
+    display:inline-block;
+    margin: 0 25px;
+}
+
+.icones{
+    font-size: 5.6em;
+    color: #20232D;
+
+}
+
+.text-icon{
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 10px 0;
+
+}
+
+.icon-font{
+    font-family: 'Lato', sans-serif;
+}
+
+.princ{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    width: 220px;
+    height: 50px;
+    padding: 12px 10px;
+    margin: 15px;
+    background-color: #20232D;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    display:inline-block;
+
+    
+}
+
+.botao:hover{
+    background-color: #00215a;
+    color: white;
+}
+
+.sombra-texto{
+    text-shadow: 5px 5px 55px rgb(88, 88, 88);
+}
+
+.sombra-box{
+    box-shadow: 3px 3px 15px rgb(97, 97, 97);
+}
+
+.servs{
+    background-color: #20232D;
+    color: white;
+    width: 373px;
+    height: 314px;
+    border-radius: 36px;
+    padding: 45px 25px;
+    font-family: 'Lato', sans-serif;
+    margin: 15px 25px ;
+}
+
+.servs-text{
+    font-weight: bolder;
+    font-size: 24px;
+    width: 350px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.servs-sub{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.servs-link{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.servs-link:hover{
+    color: #509E3F  ;
+}
+
+.publi{
+    background-color: #eeebeb;
+    width: 390px;
+    height: 589px;
+    border-radius: 25px;
+    margin: 15px 15px;
+    box-shadow: 5px 5px 15px rgb(97, 96, 96);
+}
+
+.fts{
+    font-family: 'Lato', sans-serif;
+}
